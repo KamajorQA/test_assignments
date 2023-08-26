@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aston Test assignment</title>
+  </head>
+  <body>
+    <p id="Loader">Loading...</p>
+    <form id="Form">
+      <fieldset>
+        <legend>User:</legend>
+
+        <select id="Select">
+          <!-- <option value="mollie88">mollie88</option> -->
+        </select>
+
+        <br />
+        <br />
+
+        <div>
+          <label for="UserSurname">Name:</label>
+          <br />
+          <input
+            type="text"
+            id="UserSurname"
+            name="userSurname"
+            placeholder="enter your name"
+          />
+        </div>
+        <br />
+
+        <div>
+          <label for="UserEmail">Email:</label>
+          <br />
+          <input
+            type="email"
+            id="UserEmail"
+            name="email"
+            placeholder="mail@mail.ru"
+          />
+        </div>
+        <br />
+
+        <div>
+          <label for="DateOfBirth">Date of Birth:</label>
+          <br />
+          <input
+            type="date"
+            id="DateOfBirth"
+            name="dateOfBirth"
+            placeholder="data"
+          />
+        </div>
+        <br />
+
+        <div>
+          <label for="About">About:</label>
+          <br />
+          <textarea id="About" name="about" rows="10" cols="25">
+"Some description"
+          </textarea>
+        </div>
+
+        <br />
+
+        <button type="submit">Отправить</button>
+      </fieldset>
+    </form>
+    <p id="Result"></p>
+    <script src="script.js" defer></script>
+  </body>
+</html>
